@@ -1,5 +1,5 @@
+import {categories} from "../categories.ts";
 
-import {categories} from "../App.tsx";
 interface Props {
     onSelectCategory : (category: string) => void;
 }
